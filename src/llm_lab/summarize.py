@@ -15,4 +15,4 @@ response = client.messages.create(
 )
 print(response.content[-1].text)
 print(response.usage)  # check token usage and cost on every call
-print("hi")
+print("hi there")
