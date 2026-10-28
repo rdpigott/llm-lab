@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace    # removes spaces at line ends
+      - id: end-of-file-fixer      # makes files end with a newline
+      - id: check-yaml             # checks that YAML files parse
+      - id: check-added-large-files  # blocks accidentally committing huge files
